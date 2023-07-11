@@ -30,6 +30,43 @@ body{
 
 
 
+/* nav-bar style start */
+
+.header{
+    background-color: #E55473;
+    height: 120px;
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+.nav-bar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 9%;
+    
+}
+.menu {
+    list-style: none;
+    cursor: pointer;
+}
+.menu-item{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+ul,li{
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+/* nav-bar end here */
+
 
 
 /* body section style use  */
@@ -39,8 +76,7 @@ body{
 }
 .top-contenir {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top:50px;
 
 }
@@ -63,9 +99,8 @@ body{
     font-family: Lato;
     font-size: 80px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     line-height: normal;
-    width: 708px;
 }
 
 
@@ -225,6 +260,8 @@ div a {
 input {
     padding: 22px;
     width: 700px;
+    border-radius: 8px;
+    margin-right: 10px;
 }
 
 /* footer style end */

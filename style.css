@@ -37,7 +37,7 @@ body{
     height: 120px;
 }
 .logo {
-    width: 150px;
+    width: 100px;
     cursor: pointer;
 }
 .nav-bar {
@@ -77,7 +77,7 @@ ul,li{
 .top-contenir {
     display: flex;
     justify-content: space-evenly;
-    padding-top:50px;
+    
 
 }
 .img-contenair {

@@ -1,3 +1,4 @@
+/* command style use */
 body{
     margin: 0;
     padding: 0;
@@ -6,6 +7,33 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.short-d{
+    text-align: center;
+      
+}
+
+/* command style use End */
+
+
+
+
+
+/* body section style use  */
+
 .body-section { 
     background-color:#E554731A;
 }
@@ -13,8 +41,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top:50px;
 
+}
+.img-contenair {
+    position: relative;
+    top:6px;
 }
 
 .short-d-one {
@@ -35,19 +67,12 @@ body{
     line-height: normal;
     width: 708px;
 }
-.btn {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 8px;
-    background: #E55473;
-    padding: 20px 43px;
-    border-width: 0;
-    cursor: pointer;
-}
+
+
+/* body section style end */
+
+
+/* item section style use  */
 .one-item {
     height: 538px;
     width: 464px;
@@ -86,10 +111,7 @@ body{
 h2{
     text-align: center;
 }
-.short-d{
-    text-align: center;
-      
-}
+
 
 .item-section {
     margin: 200px auto;
@@ -117,6 +139,10 @@ div a {
     font-size: 24px;
 }
 
+/* item section end  */
+
+
+
 /* offer item style */
 .offer-item {
     display: flex;
@@ -138,6 +164,9 @@ div a {
     line-height: normal;
 }
 /* offer item end */
+
+
+
 
 /* <!-- Instagarm start --> */
 .image-gird {
@@ -166,6 +195,9 @@ div a {
     background-image: url(image/Rectangle\ 9.png);
     
 }
+/* <!-- Instagarm End --> */
+
+
 
 /* footer start style */
 .footer-section {
@@ -195,3 +227,4 @@ input {
     width: 700px;
 }
 
+/* footer style end */
